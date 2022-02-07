@@ -1,6 +1,6 @@
 # StudentManagementSystem
 
-- To create new student
+- ***To create new student***
 
 Request :
 ```
@@ -24,7 +24,7 @@ Response :
 ```
 NOT : Header -> Message : Student is added succesfully
 
--  To get all students (If any student does not exist )
+-  ***To get all students (If any student does not exist )***
 
 Request:
 ```
@@ -40,7 +40,7 @@ Response:
     "details": "uri=/students"
 }
 ```
-- To get all students
+- ***To get all students***
 
 Request :
 ```
@@ -72,7 +72,7 @@ Response :
 ]
 ```
 
--  To get student by ID
+-  ***To get student by ID***
 Request :
 ```
 GET /student/3 HTTP/1.1
@@ -89,7 +89,7 @@ Response :
 }
 ```
 
-- Get Student by ID (If Student that given id does not exist)
+- ***Get Student by ID (If Student that given id does not exist)***
 
 Request :
 ```
@@ -106,7 +106,7 @@ Response :
 }
 ```
 
-- To update student with ID
+- ***To update student with ID***
 
 Request :
 ```
@@ -130,7 +130,7 @@ Response :
 ```
 NOT : Header -> Message : Student is updated succesfully with id : 1
 
-- To create new Lesson 
+- ***To create new Lesson***
 
 Request :
 ```
@@ -155,7 +155,7 @@ Response :
 ```
 NOT : Header -> Message : Lesson is added succesfully
 
-- To get all lessons 
+- ***To get all lessons*** 
 
 Request :
 ```
@@ -193,7 +193,7 @@ Response :
 ]
 ```
 
-- To get lesson with ID (3)
+- ***To get lesson with ID (3)***
 
 Request :
 ```
@@ -211,7 +211,7 @@ Response :
 }
 ```
 
-- To update lesson with ID (3)
+- ***To update lesson with ID (3)***
 
 Request:
 ```
@@ -236,7 +236,7 @@ Response :
 ```
 NOT : Header -> Message : Lesson is updated succesfully with id : 3
 
-- To add lesson with ID (1) to student with ID (1)
+- ***To add lesson with ID (1) to student with ID (1)***
 
 Request :
 ```
@@ -246,7 +246,7 @@ Response :
 ```
 NOT : Header -> Message : Lesson Math is added to Omer
 
-- To delete lesson from Student with ID (3)
+- ***To delete lesson from Student with ID (3)***
 
 Request :
 ```
@@ -257,7 +257,7 @@ Host: localhost:8080
 Response :
 NOT : Header -> Message : Lesson Math is removed from Nazim
 
-- To list all lessons of Student with ID (3)
+- ***To list all lessons of Student with ID (3)***
 
 Request :
 ```
@@ -282,7 +282,7 @@ Response :
     }
 ]
 ```
-- To list all students of lesson with ID (2)
+- ***To list all students of lesson with ID (2)***
 
 Request :
 ```
@@ -314,7 +314,7 @@ Response :
 ]
 ```
 
-- To prevent student take lesson that is reached limit of quota.
+- ***To prevent student take lesson that is reached limit of quota.***
 
 Request :
 ```
